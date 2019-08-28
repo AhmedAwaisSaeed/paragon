@@ -8,8 +8,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet,ScrollView,TouchableWithoutFeedback, Text,SafeAreaView,Keyboard, TextInput,StatusBar, View, ImageBackground,Button,Image,TouchableHighlight,TouchableOpacity} from 'react-native';
-// import bgimage from './images/images.jpeg';
-// import logo from './images/logo.png';
+
 import { Navigation } from "react-native-navigation";
 import Swiper from "react-native-web-swiper";
 import BannerOne from "./src/components/BannerOne";
@@ -54,15 +53,7 @@ export default class App extends Component {
   }
 
   componentWillMount(){
-    // console.log("keyBoard Dissmiss");
-    // Keyboard.dismiss();
-
-    // var date=new Date();
-    // console.log("Employee Projects List Pressed");
-    
-    
-    // var date2 = moment(date).format('YYYY-MM-DD,h:mm:ss a');
-    // console.log("date two is=",date2);
+   
 
   }
 componentDidMount(){
